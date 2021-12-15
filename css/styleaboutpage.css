@@ -1,0 +1,41 @@
+body{background-image: url("../image/lego bricks .jpg");}
+/*this is how the backgrounds legobricks*/
+h1{color: black; text-align: center; text-decoration: underline; text-decoration-color: black;}
+
+p{background-color:lime green }
+
+div{text-shadow: 2px 2px white;
+font-size:30px; border-width: medium;background-color:lightblue;}
+
+/*makes buttens and links you to other pages*/
+footer {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: lightblue;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: red;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
